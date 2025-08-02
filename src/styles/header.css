@@ -1,0 +1,8 @@
+.profile-header {
+    padding: 2rem 0;
+    text-align: center;
+}
+.profile-header--title {
+    margin: 0;
+    text-shadow: var(--preset-text-shadow);
+}

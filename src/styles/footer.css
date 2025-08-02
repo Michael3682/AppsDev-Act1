@@ -1,0 +1,8 @@
+.profile-footer {
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+}
+.profile-footer--text {
+    text-shadow: var(--preset-text-shadow);
+}

@@ -1,0 +1,27 @@
+:root {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    --preset-color-black: rgb(25, 25, 25);
+    --preset-color-white: rgb(223, 216, 216);
+    --preset-color-black-light: rgb(30, 30, 30);
+    --preset-text-shadow: 0px 2px 5px rgb(0, 0, 0);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: var(--preset-color-white);
+    background-color: var(--preset-color-black-light);
+}
+
+#root {
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
