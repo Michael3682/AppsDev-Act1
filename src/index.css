@@ -1,12 +1,14 @@
 :root {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
+    font-optical-sizing: auto;
+    font-family: "Raleway", sans-serif;
 
+    --preset-border-radius: 5px;
     --preset-color-black: rgb(25, 25, 25);
     --preset-color-white: rgb(223, 216, 216);
-    --preset-color-black-light: rgb(30, 30, 30);
-    --preset-text-shadow: 0px 2px 5px rgb(0, 0, 0);
+    --preset-shadow: 0px 2px 5px rgb(0, 0, 0);
+    --preset-color-black-lighter: rgb(30, 30, 30);
+    --preset-border: 1px solid rgb(204, 204, 204, .5);
 }
 
 body {
@@ -14,14 +16,14 @@ body {
     padding: 0;
     height: 100vh;
     color: var(--preset-color-white);
-    background-color: var(--preset-color-black-light);
+    background-color: var(--preset-color-black-lighter);
 }
 
 #root {
     height: 100%;
-    position: relative;
     display: flex;
+    position: relative;
     align-items: center;
-    justify-content: space-between;
     flex-direction: column;
+    justify-content: space-between;
 }

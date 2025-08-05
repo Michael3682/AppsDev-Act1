@@ -1,0 +1,8 @@
+.profile-skills--container .profile-skills--list {
+    gap: .75rem;
+    display: flex;
+    flex-direction: column;
+}
+.profile-skills--container .profile-skills--list .profile-skill {
+    list-style: circle;
+}

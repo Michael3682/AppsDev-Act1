@@ -1,0 +1,22 @@
+.contact--container {
+    width: 200px;
+}
+.contact--container .contact-button--container {
+    gap: .75rem;
+    display: flex;
+    flex-direction: column;
+}
+.contact--container .contact-button--container button {
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all .25s;
+    padding: .4rem .3rem;
+    border: var(--preset-border);
+    background-color: transparent;
+    color: var(--preset-color-white);
+    border-radius: var(--preset-border-radius);
+}
+.contact--container .contact-button--container button:hover {
+    box-shadow: var(--preset-shadow);
+    border: 1px solid var(--preset-color-white);
+}

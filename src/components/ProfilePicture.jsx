@@ -1,4 +1,5 @@
 import ProfileImage from "../assets/profile_image.jpg"
+import "../styles/profilepicture.css"
 
 export default function ProfilePicture() {
     return (

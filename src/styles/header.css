@@ -1,8 +1,10 @@
 .profile-header {
-    padding: 2rem 0;
+    width: 100%;
+    padding: 1rem 0;
     text-align: center;
+    background-color: var(--preset-color-black);
 }
 .profile-header--title {
     margin: 0;
-    text-shadow: var(--preset-text-shadow);
+    text-shadow: var(--preset-shadow);
 }

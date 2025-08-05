@@ -1,0 +1,8 @@
+.profile-image--container .profile-image {
+    border-radius: var(--preset-border-radius);
+}
+.profile-image--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
